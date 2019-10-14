@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".tasbeeh.tasbeeh"
+    android:background="@drawable/mainbackground">
+    <ImageView
+        android:layout_marginTop="30dp"
+        android:id="@+id/quran"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:src="@drawable/quran_image"
+        app:layout_constraintTop_toBottomOf="@+id/linear"
+
+        />
+
+    <Spinner
+
+        android:id="@+id/spinner"
+
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="300dp"
+        android:background="@color/colorAccent"
+
+        android:gravity="center"
+
+
+        android:layerType="none"
+        android:popupBackground="@color/colorAccent"
+        android:spinnerMode="dropdown"
+        android:splitMotionEvents="true"
+       android:layout_marginRight="50dp"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:visibility="visible"></Spinner>
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+     app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="280dp"
+        android:layout_marginRight="10dp"
+      android:layout_marginEnd="120dp"
+        android:src="@drawable/tasbeeh"
+
+/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/text"
+        android:textSize="32sp"
+        android:textColor="@color/colorAccent1"
+        android:text="0"
+        app:layout_constraintTop_toBottomOf="@+id/spinner"
+        android:layout_marginTop="50dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

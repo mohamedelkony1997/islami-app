@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="qouran">qouran</string>
+    <string name="tasbeeh">tasbeeh</string>
+    <string name="ahades">ahadees</string>
+    <string name="radio">radio</string>
+    <string-array name="tasbeeh">
+        <item>سبحان الله</item>
+        <item> الله اكبر</item>
+        <item>الحمد لله </item>
+    </string-array>
+</resources>

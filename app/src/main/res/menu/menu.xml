@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/qouran"
+        android:icon="@drawable/ic_qouran"
+        android:title="qouran"/>
+    <item
+        android:id="@+id/tasbeeh"
+        android:icon="@drawable/ic_tasbeeh"
+        android:title="tasbeeh"/>
+
+    <item
+        android:id="@+id/radio"
+        android:icon="@drawable/ic_radio"
+        android:title="radio"/>
+</menu>

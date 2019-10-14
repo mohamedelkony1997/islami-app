@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\ELKONY\\AndroidStudioProjects\\MyApplication4\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ar-rEG\\values-ar-rEG.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\ELKONY\\AndroidStudioProjects\\MyApplication4\\app\\src\\main\\res\\values-ar-rEG\\strings.xml",
+                    "from": {
+                        "startLines": "5,2,3,6,4",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "194,57,110,237,151",
+                        "endColumns": "41,51,39,39,41",
+                        "endOffsets": "231,104,145,272,188"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "55,97,149,189,229",
+                        "endColumns": "41,51,39,39,41",
+                        "endOffsets": "92,144,184,224,266"
+                    }
+                }
+            ]
+        }
+    ]
+}
